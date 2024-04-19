@@ -1,32 +1,36 @@
-# Arquivos gerados pelo Node.js
-node_modules/
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
-# Arquivos gerados pelo TypeScript
-dist/
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+.yarn/install-state.gz
 
-# Arquivos de dependências específicos do sistema operacional ou IDE
+# testing
+/coverage
+
+# next.js
+/.next/
+/out/
+
+# production
+/build
+
+# misc
 .DS_Store
-.vscode/
-.idea/
+*.pem
 
-# Arquivo de log
-*.log
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
 
-# Arquivos de ambiente local
-.env
+# local env files
+.env*.local
 
-# Arquivos de build ou cache
-*.bak
-*.cache
-*.lock
-*.log
-*.swp
-*.tmp
-*.tmp.*
-*.sublime-workspace
-
-# Arquivos de configuração do usuário
-npm-debug.log
-yarn-debug.log
-yarn-error.log
+# vercel
 .vercel
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
