@@ -8,6 +8,4 @@ app.use(express.json());
 
 app.use('/api/v1', router);
 
-app.listen(port, () => {
-  console.log(`Serviço rodando em http://localhost:${port}`);
-});
+app.listen(port);
