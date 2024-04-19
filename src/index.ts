@@ -1,9 +1,8 @@
-// src/app.ts
 import express from 'express';
-import router from './routes/router';
+import router from './routes/Router';
 
 const app = express();
-const port = 3000;
+const port = 3002;
 
 app.use(express.json());
 
