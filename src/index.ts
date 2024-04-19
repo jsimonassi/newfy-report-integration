@@ -8,4 +8,6 @@ app.use(express.json());
 
 app.use('/api/v1', router);
 
-app.listen(port);
+app.listen(port, () => console.log("Server ready on port: " + port));
+
+module.exports = app;
