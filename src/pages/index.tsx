@@ -19,9 +19,10 @@ const MyApp = () => {
  "waitingTimeMs": 5000
 }`}
             </pre>
-            <p>Este corpo irá fazer com que a API espere por 10 segundos antes de responder.</p>
+            <p>Este corpo irá fazer com que a API espere por 5 segundos antes de responder.</p>
+            <p>O valor máximo de espera é 7 segundos.</p>
             <p>Substitua o waitingTime pelo valor necessário em milissegundos.</p>
-            <p>Se nada for enviado, o valor de 10000 ms será utilizado.</p>
+            <p>Se nada for enviado, o valor de 7 segundos será utilizado.</p>
         </div>
     );
 }
